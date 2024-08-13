@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Spider';
+    src: url(font/The\ Amazing\ Spider-Man.ttf)format(truetype);
+
+    font-family: 'Batman';
+    src: url(font/batmfa__.ttf)format(truetype);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header > h1 {
+    font-family: 'Spider';
+    text-align: center;
+    padding: 3px;
+    color: blue;
+}
+
+header {
+    background-color: #09011f;
+    padding: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    margin: 6px;
+    padding: 2px;
+    color: rgb(91, 91, 241);
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    background-color: #F0C911;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 1px 1px 10px black;
+}
+
+h1 {
+    font-family: 'Batman';
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(midia/662433.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: rgba(245, 245, 245, 0.719);
+    width: 750px;
+    margin: auto;
+    border-radius: 40px;
+}
+
+div#main {
+    background-color: #ffffffc9;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div > p {
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 7px;
+}
+
+div#vid {
+    text-align: center;
+    margin-top: 40px;
+}
+
